@@ -18,7 +18,7 @@ const Subscription = () => {
                     </p>
                 </div>
                 <div>
-                    <Link href="">
+                    <Link href="https://tinyletter.com/biztechmorocco">
                         <a 
                             title="Subscribe"
                             className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-light-purple text-white text-md font-semibold rounded-full active:scale-95">

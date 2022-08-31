@@ -10,7 +10,7 @@ const Subscription = () => {
         <div className="max-w-7xl w-100 m-auto px-4">
             <div className="subscription-card bg-white max-w-xl w-100 m-auto p-4 py-10 rounded-md text-center">
                 <div>
-                    <h2 className="text-light-purple max-w-md w-100 m-auto my-4 text-4xl text-white font-bold">
+                    <h2 className="text-light-purple max-w-md w-100 m-auto my-4 text-3xl text-white font-bold sm:text-4xl">
                         Subscribe To Our Newsletter
                     </h2>
                     <p className="text-gray-600 text-xl font-semibold text-gray my-2 mb-8">

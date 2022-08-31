@@ -4,6 +4,7 @@ import Head from 'next/head';
 // Components
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Subscription from '../components/Subscribtion';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
+      <Subscription />
     </div>
   )
 }

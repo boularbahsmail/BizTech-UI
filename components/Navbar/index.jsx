@@ -1,6 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 
+// React Icons
+import { IoIosArrowForward } from 'react-icons/io';
+
 const Navbar = () => {
   return (
     <div className="py-6 flex justify-between items-center md:py-8">
@@ -12,9 +15,10 @@ const Navbar = () => {
         <div>
           <Link href="">
             <a 
-              className="text-black text-sm font-semibold bg-white py-2 px-4 border border-white rounded-md ease-in-out duration-150 hover:text-white hover:bg-black md:text-md"
-              title="Update Me">
-              Update Me
+                title="Update Me"
+                className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-white text-black text-sm font-semibold rounded-full active:scale-95 md:text-md">
+                <span>Update Me</span>
+                <span className="mt-0.5"><IoIosArrowForward /></span>
             </a>
           </Link>
         </div>

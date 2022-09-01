@@ -6,7 +6,7 @@ import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 const Footer = () => {
   return (
-    <div className="bg-black py-10 px-4">
+    <div className="bg-black py-12 px-4">
         <div className="max-w-7xl w-100 m-auto grid grid-cols-1 gap-6 md:gap-4 md:grid-cols-3 place-items-center sm:grid-cols-2">
             <div className="flex flex-col justify-center items-center">
                 <Link href="">
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className="text-center md:text-left">
                 <Link href="https://github.com/boularbahsmail/BizTech-UI">
-                    <a target="_blank" className="text-pink text-xl font-semibold">Want to Contribute?</a>
+                    <a target="_blank" className="text-pink text-xl font-normal">Want to Contribute?</a>
                 </Link>
                 <h5 className="mt-2 text-gray">
                     This website is made with ❤️ By {" "}

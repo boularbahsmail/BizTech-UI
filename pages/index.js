@@ -4,6 +4,7 @@ import Head from 'next/head';
 // Components
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import EpisodesTypes from '../components/Episodes-Types';
 import Subscription from '../components/Subscribtion';
 import Footer from '../components/Footer';
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
+      <EpisodesTypes />
       <Subscription />
       <Footer />
     </div>

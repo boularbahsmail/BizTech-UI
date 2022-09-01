@@ -6,7 +6,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const Subscription = () => {
   return (
-    <div className="bg-purple py-6 md:py-16">
+    <div className="bg-light-purple py-6 md:py-16">
         <div className="max-w-7xl w-100 m-auto px-4">
             <div className="subscription-card bg-white max-w-xl w-100 m-auto p-4 py-10 rounded-md text-center">
                 <div>

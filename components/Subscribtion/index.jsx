@@ -21,7 +21,7 @@ const Subscription = () => {
                     <Link href="">
                         <a 
                             title="Subscribe"
-                            className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-light-purple text-white text-sm font-normal rounded-full active:scale-95 md:text-md">
+                            className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-light-purple text-white text-sm font-semibold rounded-full active:scale-95 md:text-md">
                             <span>Subscribe</span>
                             <span><IoIosArrowForward /></span>
                         </a>

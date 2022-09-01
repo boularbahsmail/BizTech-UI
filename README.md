@@ -1,13 +1,16 @@
 # BizTech UI
 
+Moroccan Community for Business And Technology.<br />
+We believe in community; together we can learn more and build a tech product faster.
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 ![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Moroccan Community for Business And Technology.<br />
-We believe in community; together we can learn more and build a tech product faster.
+## Website Screenshot
+<img src="./BizTech-Morocco.png" alt="BizTech-Morocco-Screenshot" />
 
 ## Install Dependencies:
 First install the needed dependencies:

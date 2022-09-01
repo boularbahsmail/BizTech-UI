@@ -9,7 +9,7 @@ import { FaTwitter, FaYoutube, FaFacebook } from 'react-icons/fa';
 
 const State = () => {
   return (
-    <div className="bg-light-purple py-6 md:py-16">
+    <div className="bg-light-purple py-20 pb-26 md:pb-36">
         <div className="max-w-5xl w-100 m-auto px-4">
             <div className="bg-light-purple grid place-items-center grid-cols-1 gap-4 md:grid-cols-3 sm:grid-cols-2">
                 {

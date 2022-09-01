@@ -11,7 +11,7 @@ const State = () => {
   return (
     <div className="bg-light-purple py-24 md:py-14 pb-26 md:pb-36">
         <div className="max-w-5xl w-100 m-auto px-4">
-            <h2 className="mb-10 text-white text-3xl font-semibold text-center">Join The Community</h2>
+            <h2 className="mb-10 text-white text-2xl font-semibold text-center md:text-3xl">Join The Community</h2>
             <div className="bg-light-purple grid place-items-center grid-cols-1 gap-4 md:grid-cols-3 sm:grid-cols-2">
                 {
                     states.map((state, index) =>
@@ -27,8 +27,8 @@ const State = () => {
                                     className="flex justify-center items-center gap-2 rounded-full py-2 px-4 w-max m-auto bg-white text-blue text-md font-semibold active:scale-95">
                                     <span>{state.action}</span>
                                     <span className="text-blue text-md">
-                                {state.title == "Twitter" ? <FaTwitter /> : state.title == "YouTube" ? <FaYoutube /> : state.title == "Facebook" ? <FaFacebook /> : ""}
-                            </span>
+                                        {state.title == "Twitter" ? <FaTwitter /> : state.title == "YouTube" ? <FaYoutube /> : state.title == "Facebook" ? <FaFacebook /> : ""}
+                                    </span>
                                 </a>
                             </Link>
                         </div>

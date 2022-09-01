@@ -13,12 +13,12 @@ const Subscription = () => {
                     <h2 className="text-light-purple max-w-md w-100 m-auto my-4 text-3xl text-white font-bold sm:text-4xl">
                         Subscribe To Our Newsletter
                     </h2>
-                    <p className="text-gray-600 text-xl font-normal text-gray my-2 mb-8">
+                    <p className="text-gray-600 text-xl font-normal text-gray my-1 mb-6">
                         Stay updated
                     </p>
                 </div>
                 <div>
-                    <Link href="https://tinyletter.com/biztechmorocco">
+                    <Link href="">
                         <a 
                             title="Subscribe"
                             className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-light-purple text-white text-sm font-normal rounded-full active:scale-95 md:text-md">

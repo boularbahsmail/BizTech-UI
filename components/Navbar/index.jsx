@@ -15,10 +15,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
-          <Link href="https://tinyletter.com/biztechmorocco">
+          <Link href="">
             <a 
                 title="Update Me"
-                className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-white text-black text-sm font-normal rounded-full active:scale-95 md:text-md">
+                className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-white text-black text-sm font-semibold rounded-full active:scale-95 md:text-md">
                 <span>Update Me</span>
                 <span><IoIosArrowForward /></span>
             </a>

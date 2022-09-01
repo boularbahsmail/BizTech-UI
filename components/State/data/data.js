@@ -9,7 +9,7 @@ const data = [
     {
         id: 2,
         title: "YouTube",
-        statistics: "+80 Subscribes",
+        statistics: "+80 subscribers",
         action: "Subscribe"
     },
     {

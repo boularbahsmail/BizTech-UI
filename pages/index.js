@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import EpisodesTypes from '../components/Episodes-Types';
+import State from '../components/State';
 import Subscription from '../components/Subscribtion';
 import Footer from '../components/Footer';
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
       </div>
       <EpisodesTypes />
+      <State />
       <Subscription />
       <Footer />
     </div>

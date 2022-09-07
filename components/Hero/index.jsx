@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 gap-6 py-10 place-items-center md:py-16 md:grid-cols-2">
         <div>
-            <h1 className="text-center text-5xl text-pink font-bold md:text-left">
+            <h1 className="text-center text-4xl text-pink font-bold md:text-left md:text-5xl">
                 BizTech
             </h1>
             <h2 className="text-center my-4 text-3xl text-white font-semibold md:text-left md:text-4xl md:my-4">
@@ -18,10 +18,10 @@ const Hero = () => {
                 we believe in community; together we can learn 
                 more and build a tech product faster.
             </p>
-            <Link href="">
+            <Link href="/talks">
                 <a
                     title="Explore Talks"
-                    className="hero-button flex justify-center items-center gap-2 w-max m-auto mt-8 py-3 px-6 text-sm text-white font-semibold rounded-full active:scale-95 md:text-md md:m-0">
+                    className="hero-button flex justify-center items-center gap-3 w-max m-auto mt-8 py-3 px-6 text-sm text-white font-semibold rounded-full active:scale-95 md:text-md md:m-0">
                     <span className="text-xl md:text-2xl"><BsFillPlayCircleFill /></span>
                     <span>Explore Talks</span>
                 </a>

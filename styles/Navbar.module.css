@@ -11,7 +11,7 @@
 .hamburger.open span:nth-child(3) {
     transform: rotate(45deg);
     transform-origin: center;
-    margin-top: -9px;
+    margin-top: -9.5px;
 }
   
 .menu.open {

@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-black py-12 px-4">
         <div className="max-w-7xl w-100 m-auto grid grid-cols-1 gap-6 md:gap-4 md:grid-cols-3 place-items-center sm:grid-cols-2">
             <div className="flex flex-col justify-center items-center">
-                <Link href="">
+                <Link href="/">
                     <a title="BizTech Morocco">
                         <img src="/logo_dark_mode.webp" alt="BizTech-Logo" className="max-w-2xl w-100 m-0" />
                     </a>
@@ -21,20 +21,33 @@ const Footer = () => {
             <div>
                 <h2 className="text-xl font-semibold text-white">Join The Community</h2>
                 <ul className="mt-2 text-center md:text-left">
-                    <li className="text-gray mb-1 hover:text-light-gray" title="Youtube">
-                        <Link href="">Youtube</Link>
+                    <li className="text-gray mb-2 w-max m-auto md:mx-0 hover:text-light-gray" title="Youtube">
+                        <Link href="https://www.youtube.com/channel/UCbJ1L2YRk6_CoVbl3_6tBew">
+                            <a target="_blank">
+                                Youtube
+                            </a>
+                        </Link>
                     </li>
-                    <li className="text-gray mb-1 hover:text-light-gray" title="Twitter">
-                        <Link href="">Twitter</Link>
+                    <li className="text-gray mb-2 w-max m-auto md:mx-0 hover:text-light-gray" title="Twitter">
+                        <Link href="https://twitter.com/BiztechMorocco">
+                            <a target="_blank">
+                                Twitter
+                            </a>
+                        </Link>
                     </li>
-                    <li className="text-gray mb-1 hover:text-light-gray" title="LinkedIn">
-                        <Link href="">LinkedIn</Link>
+                    <li className="text-gray mb-2 w-max m-auto md:mx-0 hover:text-light-gray" title="Facebook">
+                        <Link href="https://www.facebook.com/BizTechMorocco">
+                            <a target="_blank">
+                                Facebook
+                            </a>
+                        </Link>
                     </li>
-                    <li className="text-gray mb-1 hover:text-light-gray" title="Facebook">
-                        <Link href="">Facebook</Link>
-                    </li>
-                    <li className="text-gray hover:text-light-gray" title="Instagram">
-                        <Link href="">Instagram</Link>
+                    <li className="text-gray w-max m-auto md:mx-0 hover:text-light-gray" title="Instagram">
+                        <Link href="https://www.instagram.com/BizTechMorocco/">
+                            <a target="_blank">
+                                Instagram
+                            </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

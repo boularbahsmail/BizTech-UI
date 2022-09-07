@@ -5,7 +5,7 @@ import episodes from './data/data.js';
 
 const EpisodesTypes = () => {
   return (
-    <div className="bg-light-purple py-2 md:py-16">
+    <div className="content bg-light-purple py-2 md:py-16">
         <div className="max-w-5xl w-100 m-auto px-4">
             {
                 episodes.map((episode, index) =>

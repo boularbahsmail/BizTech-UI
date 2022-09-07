@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <div className="py-6 flex justify-between items-center md:py-8">
         <div className="z-50">
-          <Link href="">
+          <Link href="/">
             <a title="BizTech Morocco">
               <img src="/logo_dark_mode.webp" alt="BizTech-Logo" className="max-w-2xl w-28 m-0" />
             </a>
@@ -31,22 +31,22 @@ const Navbar = () => {
         <nav className="flex justify-center items-center gap-4">
           <ul className={`menu hidden z-40 absolute left-0 top-0 w-full h-screen bg-purple flex flex-col justify-center items-center gap-12 sm:relative sm:w-unse sm:h-auto sm:bg-black sm:flex sm:flex-row ${styles.menu} ${menuOpen ? `${styles.open}` : ""}`}>
             <li title="Home">
-              <Link href="">
+              <Link href="/">
                 <a className="text-md text-white font-semibold" onClick={() => close_menu()}>Home</a>
               </Link>
             </li>
             <li title="About">
-              <Link href="">
+              <Link href="/about">
                 <a className="text-md text-white font-semibold" onClick={() => close_menu()}>About</a>
               </Link>
             </li>
             <li title="Talks">
-              <Link href="">
+              <Link href="/talks">
                 <a className="text-md text-white font-semibold" onClick={() => close_menu()}>Talks</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="https://tinyletter.com/biztechmorocco">
                 <a title="Update Me" className="flex justify-center items-center gap-1 w-max m-auto py-2 px-4 bg-white text-black text-sm font-semibold rounded-full active:scale-95 md:text-md" onClick={() => close_menu()}>
                     <span>Update Me</span>
                     <span><IoIosArrowForward /></span>
